@@ -1,0 +1,114 @@
+.contendor{
+    display: flex !important;
+    flex-direction: column-reverse;
+
+}
+
+.contendor section{
+    width: 80%; 
+}
+
+#contenedor-info{
+margin: 4%;
+}
+
+#contenedor-info fieldset{
+    padding: 5%;
+    margin-bottom: 5%;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#contenedor-map{
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#contenedor-map div{
+    padding: 5%;
+}
+
+
+.mapa{
+    width: 100%;
+}
+
+.card-detail img{
+    width: 100%;
+}
+
+.card-detail div, .comentario div{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+    width: 100%;
+}
+
+.card-detail p{
+    margin: 3% 0;
+}
+
+.comentario {
+    margin: 3% 0;
+}
+
+.letra-gris{
+    color: gray;
+}
+
+.fecha{
+    font-size: 80%;
+}
+
+.com{
+    font-size: 80%;
+    margin: 5% 0px;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: large;
+    padding: 4%;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10% 0px;
+}
+
+.btn-chat{
+    margin: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .contendor{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 3%;
+    }
+
+    #contenedor-map{
+        margin-top: 4%;
+        width: 40%;
+    }
+    .cont-button{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    }
+
+    .boton{
+     padding: 2%;
+     align-self: flex-end;
+
+    }
+
+    
+}
+
+
+  
+

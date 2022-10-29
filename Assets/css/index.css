@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    width: 30%;
+    margin: 2%;
+}
+
+main{
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    width: 70%;
+    margin: 2%;
+}
+
+.titulo h1{
+    font-size: xx-large;
+}
+
+.content-info{
+    width: 75%; 
+}
+
+.principal-img{
+    background-image: url('../img/Hero Image (Tablet and Mobile).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    min-height: 200px;
+    min-width: 281px;
+}
+
+.check{
+    width: 4%;
+    margin: 2%;
+    min-width: 15px;
+}
+
+.parrafo{
+    font-size: 100%;
+    width: 100%;
+    margin: 2%; 
+    color: gray;
+}
+.list-items{
+margin-bottom: 12%;
+}
+.list-items li{
+    display: flex;
+    
+}
+
+.list-items li p{
+    font-size: 100%;
+    margin: 2%;
+    width: 100%;
+    color: gray;
+}
+
+.content-par{
+ margin: 10%;
+  width: 80%;
+}
+
+.parnet{
+    display: flex;
+}
+
+.titulo-part{
+    margin: 3%;
+    color: gray;
+}
+
+.parnet img{
+ width: 35%;
+}
+
+.boton{
+ color: white;
+ text-decoration: none;
+ background-color: black;
+ padding: 6%;
+ border-radius: 5px;
+}
+
+@media screen and (min-width:700px ) And (max-width:1000px) {
+    .titulo{
+        width: 90%;
+        margin: 2%;
+    }
+
+    .titulo h1{
+       font-size: 7.9vw;
+    }
+
+    .content-info{
+        width: 90%;   
+    }
+
+    .parrafo{
+        font-size: 130%;
+    }
+
+    .list-items li p{
+        font-size: 130%;
+    }
+
+    .boton{
+        padding: 4%;
+       }
+
+    .parnet img{
+        width: 25%;
+    }
+
+    .content-par{
+        width: 94%;
+    }
+   
+    }
+
+    @media screen and (min-width:1000px){
+
+        .logo{
+            position: absolute;
+            width: 10%;
+            margin: 3% 10%;
+        }
+
+        main{
+            display: flex;
+           flex-direction: row-reverse;
+        }
+       
+
+        .principal-img{
+            background-image: url('../img/Hero Image.jpg');
+            background-size: 100% 100%;
+            height: auto;
+        }
+
+        .content{
+            width: 100%;
+            margin-top: 7.6%;
+            margin-left: 5%;
+        }
+
+        .check{
+            width: 4%;
+            margin: 4px;
+            min-width: 15px;
+        }
+
+        .list-items li p{
+            font-size: 120%;
+            margin: 4px;
+        }
+
+        .content-info{
+            width: 80%; 
+        }
+
+        .parrafo{
+            width: 80%;
+            font-size: 120%;
+        }
+
+        .titulo h1{
+            font-size: 4vw;
+            margin-left: -5%;
+        }
+
+        .parnet img{
+            width: 25%;
+        }
+
+        .list-items{
+            margin-bottom: 8%;
+            }
+
+        .boton{
+            background-color: black;
+            padding: 3% 6%;
+           }
+
+        .content-par{
+            margin-top: 5%;
+            margin-bottom: 8%;
+            margin-left: 5%;
+        }
+    }

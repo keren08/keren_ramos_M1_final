@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/img/Logo.svg"> 
+    <link rel="stylesheet" href="Assets/css/search.css">
+    <link rel="stylesheet" href="Assets/css/detail.css">
+    <title>YelpCamp</title>
+</head>
+<body>
+    <header>
+
+        <section class="mensaje">
+                <p>This project was made by <a href="#">colt Steele</a> and designed by <a href="#">Codewll</a></p>
+             <img src="Assets/img/Close.svg" alt="">
+        </section>
+
+        <nav>
+            <section class="contenedor-logo">
+                <img class="logo" src="Assets/img/Logo.svg" alt="">
+                <a href="#" class="ipad-pc a gray">Home</a>
+            </section>
+
+            <section class="tel">
+              <img src="Assets/img/Hamburger Menu.svg" alt="" id="list-ico" class="list-ico" onclick=" document.getElementById('menu').classList.contains('hidden')?document.getElementById('menu').classList.remove('hidden'):document.getElementById('menu').classList.add('hidden');">       
+            </section>
+
+            <section class="ipad-pc">
+                <ul>
+                    <li class="li1"><a href="#" class="a gray">Login</a></li>
+                    <li class="li2"><a href="#" class="cuenta a">Create an account</a></li>
+                </ul>
+            </section>
+
+        </nav>
+    </header>
+
+    <div id="menu" class="hidden">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Create an account</a></li>
+        </ul>
+    </div>
+
+    <main class="contendor">
+        <section id="contenedor-map">
+            <div>
+                <img src="Assets/img/Map.png" alt=""  class="mapa"> 
+            </div>
+        </section>
+
+        <section id="contenedor-info">
+            <fieldset class="card-detail">
+                <img src="Assets/img/Camp/Compressed/Mount Ulap.jpg" alt="">
+                <div><h3>Mount Ulap</h3> <h4>$104.99/night</h4></div>
+                <p class="letra-gris">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet excepturi saepe voluptatibus pariatur alias harum illum ut et autem unde ea repudiandae vitae optio, totam delectus officiis, commodi libero laboriosam!</p>
+                <p class=" letra-gris">Submitted by Andrew Mike</p>
+            </fieldset>
+            
+            <fieldset class="comentarios">
+                <div class="comentario">
+                     <div><h4 class="nombre">Adam Jones</h4> <h4 class="fecha letra-gris">13h ago</h4></div>
+                     <p class="letra-gris com">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ullam nulla obcaecati voluptates quo, numquam reiciendis.</p>
+                </div>
+                <hr>
+                <div class="comentario">
+                    <div><h4 class="nombre">Isaac Dylan</h4> <h4 class="fecha letra-gris">1 day ago</h4></div>
+                    <p class="letra-gris com">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ullam nulla obcaecati voluptates quo, numquam reiciendis.</p>
+                </div>
+                <hr>
+                <div class="cont-button">
+                <button class="boton"><img class="btn-chat" src="Assets/img/Chat Bubble.svg" alt="">Leave a Review</button>
+            </div>
+        </fieldset>
+
+    
+        
+        </section>
+    </main>
+
+    <footer>
+        <img class="logo" src="Assets/img/Logo.svg" alt="">
+    </footer>
+</body>
+</html>

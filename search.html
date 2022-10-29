@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Assets/img/Logo.svg"> 
+    <title>YelpCamp</title>
+</head>
+<body>
+    <header>
+
+        <section class="mensaje">
+                <p>This project was made by <a href="#">colt Steele</a> and designed by <a href="#">Codewll</a></p>
+             <img src="Assets/img/Close.svg" alt="">
+        </section>
+
+        <nav>
+            <section class="contenedor-logo">
+                <img class="logo" src="Assets/img/Logo.svg" alt="">
+                <a href="#" class="ipad-pc a gray">Home</a>
+            </section>
+
+            <section class="tel">
+              <img src="Assets/img/Hamburger Menu.svg" alt="" id="list-ico" class="list-ico" onclick=" document.getElementById('menu').classList.contains('hidden')?document.getElementById('menu').classList.remove('hidden'):document.getElementById('menu').classList.add('hidden');">       
+            </section>
+
+            <section class="ipad-pc">
+                <ul>
+                    <li class="li1"><a href="#" class="a gray">Login</a></li>
+                    <li class="li2"><a href="#" class="cuenta a">Create an account</a></li>
+                </ul>
+            </section>
+
+        </nav>
+    </header>
+
+    <div id="menu" class="hidden">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Create an account</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="welcome">
+            <div>
+            <h1 class="titulo">Welcome to YelpCamp!</h1>
+            <p class="parrafo">View uot hand-picked campground from all over the word, or add your own.</p>
+            <div class="search-contenedor">
+
+                <label for="" class="search-cont">
+                <label for="" id="icon-search"><img src="Assets/img/Search Icon.svg" alt=""> Search for camps</label><input type="text" name="" id="search" onkeydown="document.getElementById('search').value?document.getElementById('icon-search').classList.add('hidden'):document.getElementById('icon-search').classList.remove('hidden')">
+               </label>
+                
+               <button class="buton-negro">Search</button>
+            </div>
+            <a href="#" class="link"> Or add your own campground
+                
+            </a>
+        </div>
+        </section>
+        <section id="content-cards">
+
+            <fieldset class="card">
+                <img src="Assets/img/Camp/Compressed/Mount Ulap.jpg" alt="">
+                <h3>Mount Ulap</h3>
+                <p>One of the most famous hikes in beguet is Mt Ulap in Itogon.</p>
+                <button class="boton-blanco">View Campground</button>
+            </fieldset>
+
+            <fieldset class="card">
+                <img src="Assets/img/Camp/Compressed/Calaguas Island.jpg" alt="">
+                <h3>Mount Ulap</h3>
+                <p>One of the most famous hikes in beguet is Mt Ulap in Itogon.</p>
+                <button class="boton-blanco">View Campground</button>
+            </fieldset>
+
+            <fieldset class="card">
+                <img src="Assets/img/Camp/Compressed/Onay Beach.jpg" alt="">
+                <h3>Mount Ulap</h3>
+                <p>One of the most famous hikes in beguet is Mt Ulap in Itogon.</p>
+                <button class="boton-blanco">View Campground</button>
+            </fieldset>
+
+            <fieldset class="card">
+                <img src="Assets/img/Camp/Compressed/Seven Sisters Waterfall.jpg" alt="">
+                <h3>Mount Ulap</h3>
+                <p>One of the most famous hikes in beguet is Mt Ulap in Itogon.</p>
+                <button class="boton-blanco">View Campground</button>
+            </fieldset>
+
+            <fieldset class="card">
+                <img src="Assets/img/Camp/Compressed/Latik Riverside.jpg" alt="">
+                <h3>Mount Ulap</h3>
+                <p>One of the most famous hikes in beguet is Mt Ulap in Itogon.</p>
+                <button class="boton-blanco">View Campground</button>
+            </fieldset>
+
+            <fieldset class="card">
+                <img src="Assets/img/Camp/Compressed/Buloy Springs.jpg" alt="">
+                <h3>Mount Ulap</h3>
+                <p>One of the most famous hikes in beguet is Mt Ulap in Itogon.</p>
+                <button class="boton-blanco">View Campground</button>
+            </fieldset>
+
+        </section>
+    </main>
+
+    <footer>
+        <img class="logo" src="Assets/img/Logo.svg" alt="">
+    </footer>
+</body>
+</html>
