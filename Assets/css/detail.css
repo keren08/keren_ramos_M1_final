@@ -86,12 +86,31 @@ margin: 4%;
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        padding: 3%;
+        width: 100%;
+    }
+    .card-detail{
+        width: 70%;
+    }
+    .contendor section{
+        width: 70%; 
+    }
+    
+    .comentarios{
+        width: 70%;
+    }
+    #contenedor-info{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 4% 0;
     }
 
     #contenedor-map{
         margin-top: 4%;
-        width: 40%;
+        width: 20%;
+        padding: 2%;
     }
     .cont-button{
     display: flex;
